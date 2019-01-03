@@ -1,0 +1,29 @@
+# Site settings
+title: OPUS
+email: opus.uofm@gmail.com
+address:
+  building: "206 Allen Building"
+  university: "University of Manitoba"
+url: https://gharveymn.github.io/opusweb/
+description: "The Organization of Physics Undergraduate Students is a student-run group based at the University of Manitoba through the Department of Physics and Astronomy."
+
+destination: ../build
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: OPUS
+
+# Social networks (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/opus_uofm
+  - title: facebook
+    url: https://www.facebook.com/groups/284718194886962/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
