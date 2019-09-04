@@ -4,8 +4,8 @@ email: opus.uofm@gmail.com
 address:
   building: "206 Allen Building"
   university: "University of Manitoba"
-url: https://opus-uofm.github.io/web/
-description: "The Organization of Physics Undergraduate Students is a student-run group based at the University of Manitoba through the Department of Physics and Astronomy."
+url: https://gharveymn.github.io/opusweb/
+description: "The Organization of Physics Undergraduate Students (OPUS) is a student-run group based at the University of Manitoba through the Department of Physics and Astronomy."
 
 destination: ../build
 
