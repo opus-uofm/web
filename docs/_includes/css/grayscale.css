@@ -150,7 +150,7 @@ a:focus {
     }
 
     .navbar-logo {
-        height: 50px;
+        width: 100%;
         padding: 0;
         margin: 0;
         margin-top: -5px;
@@ -161,6 +161,10 @@ a:focus {
 
     .top-nav-collapse .navbar-logo {
         height: 30px;
+    }
+    
+    .sched {
+        width: 100%;
     }
 
 }
