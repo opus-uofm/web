@@ -6,6 +6,7 @@ address:
   university: "University of Manitoba"
 url: https://gharveymn.github.io/opusweb/
 description: "The Organization of Physics Undergraduate Students (OPUS) is a student-run group based at the University of Manitoba through the Department of Physics and Astronomy."
+baseurl: "/web"
 
 destination: ../build
 
