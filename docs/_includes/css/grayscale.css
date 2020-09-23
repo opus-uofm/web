@@ -306,16 +306,26 @@ a:focus {
 }
 
 .about-section {
-    opacity: 0.6;
     width: 100%;
     padding: 50px 0;
     color: #fff;
     background: url(img/about1-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
+    background-opacity:
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
 }
 
 .journal-section {
