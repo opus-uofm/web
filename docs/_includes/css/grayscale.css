@@ -306,16 +306,22 @@ a:focus {
 }
 
 .about-section {
+    position: relative; 
+
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    /*color: #fff;*/
     display: flex;
+
+    align-items: center;
+    justify-content: center;
+
     background-image: url(img/about1-bg.jpg) no-repeat center center scroll;
     /*background-color: {{ site.color.primary-dark }};*/
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
     background-size: cover;
-    -o-background-size: cover;
+    /*-o-background-size: cover;*/
 }
 
 .about-section::before {
