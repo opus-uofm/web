@@ -310,14 +310,15 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(img/about1-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    background-color: rgba(0,0,0,0.25); 
+    /*{{ site.color.primary-dark }};*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-.about::before {
+/*.about-section::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -325,7 +326,7 @@ a:focus {
     bottom: 0px;
     left: 0px;
     background-color: rgba(0,0,0,0.25);
-}
+}*/
 
 .journal-section {
     width: 100%;
