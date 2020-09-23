@@ -20,10 +20,6 @@ footer: OPUS
 
 # Social networks (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/opus_uofm
-  - title: facebook
-    url: https://www.facebook.com/groups/284718194886962/
   - title: instagram
     url: https://www.instagram.com/opus_uofm/
 
